@@ -1,0 +1,29 @@
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+
+  .icon {
+    flex: 1;
+    margin: 5px;
+
+    h1 {
+      font-size: 48px;
+      font-family: "New Rocker";
+      color: var(--primary);
+    }
+  }
+
+  .nav {
+    padding-right: 15px;
+    button {
+      font-family: Lato;
+      margin: 3px;
+    }
+  }
+}
+
+.btnGrad {
+  background: var(--primaryGrad);
+}
